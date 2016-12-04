@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>next retail</title>
+		<title>we will</title>
 
 		<meta name="description" content="Vert.x - An event-driven polyglot VM!">
 		<meta name="author" content="Siddique Hameed">
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -42,14 +42,13 @@
             .reveal .intro a:not(.image) {
                 color: #eee8d5;
             }
-            #ppt-title
+            .text-left
             {
-                color: #e91e63;
-                line-height: 
+                text-align: left;
             }
-            #ppt-logo
+            .content-size
             {
-                color: #388e3c;
+                font-size:1.4rem;
             }
         </style>
     </head>
@@ -60,19 +59,14 @@
 
 			<div class="slides">
 				<section class="intro" data-background="images/abs-img-1.jpg" data-transition="zoom"> 
-
-                    <br><br>
-					<h2>
-                        <a href="/">
-                              <span style="color: #e91e63">neXt</span>
-                              <span>-</span>
-                              <span style="color: #388e3c">retail</span>
-                        </a>
-                    </h2>
+                    <br>
+					<h3>                        
+                        <span style="background-color: #e91e63">We Will</span>
+                    </h3>
                         <div style="font-size:1.5rem;color:#fff">
-                            事件驱动和领域模型驱动设计，来支撑销售
+                            事件驱动和领域模型驱动设计，来支撑销售 
                         </div>
-                        <br>
+                        <br><br>
                         <div style="font-size:1.6rem">
                             <span style="color:#cddc39">by fanfree</span>
                             <I>
@@ -81,13 +75,67 @@
                         </div>
                         <div style="font-size:1.4rem">2016/12/02</h6>
 				</section>
-
+                <section ata-transition="slide" data-background-transition="slide">
+                    <h2>企业软件市场的客户群体</h2>
+                        <p class="fragment roll-in text-left">  
+                            中国的企业软件市场，如果根据客户群体来分，大约可以分成4个部分：
+                        </p>
+                        <p class="fragment roll-in text-left" >
+                            <ul>
+                                <li class="fragment">外资跨国企业客户</li>
+                                <li class="fragment">民营企业客户</li>
+                                <li class="fragment">国资企业客户</li>
+                                <li class="fragment">政府机构及组织客户</li>
+                            </ul>
+                            
+                        </p>
+                </section>                
+                <section ata-transition="slide" data-background-transition="slide">
+                    <h2>企业规模两极化</h2>
+                    <p class="fragment roll-in text-left">  
+                        企业规模两极化的观点来自于丛龙峰博士，他认为未来的企业将呈现大象和跳蚤共舞的局面。如跳蚤般的小微企业海量存在，他们凭借着灵活的身形和贴近客户的优势，在市场中获利。其中少数的成功者，迅速成为巨头，网罗同业和上下游，成为内部自组织化的大象企业。而长期存在于旧时代的中等规模企业，由于即不具有跳蚤的灵活性，又缺乏大象的集约优势，只能是大象成长史中的短暂形态。中型企业的成功者成为大象，失败者或成为跳蚤或被大象吸纳。
+                    </p>                        
+                </section>
+                <section ata-transition="slide" data-background-transition="slide">
+                    <h4>针对中小企业的 SaaS 服务为什么一直做不起来？</h4>
+                       
+                            <ul class="fragment roll-in text-left">
+                                  <li style="font-size:1.2rem">
+                                      客户购买软件后，其实不会去更改自己的业务流程以符合一个标准化的软件。也就是说一个标准化的软件能够为客户提供的商业价值有限。
+                                  </li>
+                                  <li style="font-size:1.2rem">
+                                      在一份SaaS订单中，实施的成分越大，客户的粘度也就越高。免费、或者是低收费的产品，意味着客户转换成本低，粘度也低。
+                                  </li>
+                                  <li style="font-size:1.2rem">
+                                      简单、高价值、高利润的标准化SaaS产品是不存在的，因为一旦出现这样的产品，竞品就会蜂拥而来！
+                                  </li>
+                              </ul> 
+                        
+                       
+                            <ul class="fragment roll-in text-left">
+                                <li style="font-size:1.2rem">
+                                    就第三年以后的软件拥有总成本来看，还是On-Premise模式较低。其中的原因之一是因为会计原则将On-Premise软件视为固定资产，可折旧摊提。
+                                </li>
+                                <li style="font-size:1.2rem">
+                                    随着企业流程与整合度的复杂性增加，<b>部署SaaS与On-Premise软件所需的时间差异会越来越小。</b><br>
+                                </li>
+                                <li style="font-size:1.2rem">
+                                    SaaS应用程序在Metadata层级是高度客制化的，可透过应用程序平台服务(APaas)方式来实现，业界也有许多实际建置的范例。不过，<b>对于复杂、端到端企业流程的管理功能来说，SaaS还是有其限制。</b><br>
+                                </li>
+                            </ul>
+                            <p class="fragment roll-in text-left" style="font-size:1.2rem">
+                                综合以上，我偏向于认为聚焦于大客户或者是提高收费，采用saas+pass的模式更能满足客户需求，更能实现稳健、不大规模烧钱的成长，但这样的模式对团队、技术、资源基础等要求是很高的。
+                                作者：刘运涛 来源：知乎                                
+                            </p>
+                            
+                                              
+                </section>
 				<section>
-					<h3>系统定位</h3>
+					<h3>当前的系统定位</h3>
                     <hr>
-                    <h6>
-                        当前系统服务于，企业的“用户服务”领域以及公众营销领域，他是介于企业应用和公众应用之间的应用;
-                    </h6>
+                    <p class="fragment roll-in text-left">
+                        目前的系统服务于企业的“用户服务领域”以及“公众营销领域”，他是介于企业应用和公众应用之间的应用;
+                    </p>
                     <ul>
                         <li class="fragment">Event-Driven aka <i>asynchronous</i></li>
                         <li class="fragment">NIO (Non-Blocking I/O) based</li>
